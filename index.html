@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Baby Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div id="Action-bar">
+        <div class="container">
+          <div class="column one flex-space-between">
+            <div class="promotion">
+              <p>Autumn Sales starts on November: <a href="#">Sneak a peek now</a></p>
+            </div>
+            <div class="action-bar-contact">
+              <span> <a href="#">Our stores</a></span>
+              <span> <a href="#">Useful info</a></span>
+              <span> <a href="#">Help</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Top-bar">
+        <div class="container">
+          <div class="column one">
+            <div class="logo">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop.png"
+                alt="logo"
+              />
+            </div>
+            <div class="menu-wrapper">
+              <div class="menu">
+                <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">OUR PRODUCTS</a></li>
+                  <li><a href="#">ABOUT US</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">CLIENT CENTER</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+
+              <div class="menu-icon">
+                <ul>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-person"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
+                      />
+                    </svg>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-suit-heart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                      />
+                    </svg>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-bag-check"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+                      />
+                      <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                      />
+                    </svg>
+                  </a>
+
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- main -->
+      <div class="section1">
+        <div class="container text-center">
+          <div class="row main-slide">
+            <div class="slide-left col-8">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleDark"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img
+                      src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-slider-pic1.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="font-size: 33px">
+                        Collection
+                        <br />
+                        Autumn - Winter
+                      </h5>
+                      <h5 style="font-size: 55px; color: #ebc989">2021</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img
+                      src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-slider-pic2.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 style="font-size: 33px">What's trending</h5>
+                      <h5 style="font-size: 55px; color: #ebc989">In 2022</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide-right col-4">
+              <div class="row slide-right-one">
+                <div style="text-align: center">
+                  <h3 style="font-size: 30px">
+                    Select your <br />
+                    child's age
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row slide-right-two">
+                <div style="padding: 20px">
+                  <img
+                    style="width: 50%"
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-promo-pic1.webp"
+                    alt=""
+                  />
+                  <h3 class="">
+                    Duvet Cover Set<br />
+                    <b>-40% off</b>
+                  </h3>
+                  <p id="view-colection" data-hover="VIEW COLLECTION">VIEW COLLECTION</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section2 mgb-16">
+        <div class="container text-center">
+          <div class="row pd-12">
+            <div class="col">Bed Sets</div>
+            <div class="col">Sleepwear</div>
+            <div class="col">Pyjamas</div>
+            <div class="col">Nighties</div>
+          </div>
+          <div class="row pd-12">
+            <div class="col">Bathrobes</div>
+            <div class="col">Classic</div>
+            <div class="col">Fancy</div>
+            <div class="col">More products</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section3 mgb-16">
+        <div class="container text-center">
+          <img
+            class="pd-12"
+            src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-sep1.png"
+            alt=""
+          />
+          <div class="s3-content">
+            <h3>
+              Welcome in our child's world.
+              <br />
+              All our products are made
+              <br />
+              from generations with passion.
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="section4 pd-12 mgb-16">
+        <div class="container text-center mgb-16">
+          <h2 style="font-size: 55px; line-height: 65px; font-weight: 600; letter-spacing: 0px">
+            Product's<br />
+            Catalog
+          </h2>
+
+          <div class="s4-content">
+            <div class="row">
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product1a-500x625.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/duvet-cover-set-pumpkin-bear/"
+                        >Duvet Cover Set Pumpkin Bear</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product11c-400x500.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/baby-set-hello-cutie/"
+                        >Baby Set Hello Cutie</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product5a-400x500.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/baby-robe-panda-space/"
+                        >Baby Robe Panda Space</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product2a-400x500.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/duvet-cover-set-cute-mummy/"
+                        >Duvet Cover Set Cute Mummy</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product7a-400x500.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/baby-robe-lets-play/"
+                        >Baby Robe Let’s play</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product9c-400x500.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/baby-set-little-family/"
+                        >Baby Set Little Family</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product3a-400x500.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/duvet-cover-set-pumpkin-bear/"
+                        >Duvet Cover Set Pumpkin Bear</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product6a-400x500.webp"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-text">
+                      <a
+                        href="https://themes.muffingroup.com/be/babyshop/product/duvet-cover-set-be-brave/"
+                        >Duvet Cover Set Be Brave</a
+                      >
+                    </h5>
+                    <div style="text-align: center">
+                      <span class="dot" style="background-color: blue"></span>
+                      <span class="dot" style="background-color: brown"></span>
+                      <span class="dot" style="background-color: red"></span>
+                      <span class="dot" style="background-color: yellow"></span>
+                    </div>
+                    <span>$10.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="s4-footer">
+            <button type="button" class="btn btn-dark">
+              <a href="#">GO TO SHOP</a>
+            </button>
+            <button type="button" class="btn btn-light">
+              <a href="#">SEE PROMOTION</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section5">
+        <div class="row">
+          <div class="col-6">
+            <div class="s5-left-content">
+              <div class="s5-left-body">
+                <h2 style="color: #ebc989; font-size: 119px">-50%</h2>
+                <h2 style="color: #171b20; font-size: 55px">Holiday Sale</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <!-- Carosel -->
+
+            <div class="s5-right-content">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    style="color: #ad1e1e"
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div style="text-align: center">
+                    <span style="font-size: 55px"> Special Offers </span>
+                  </div>
+
+                  <div class="carousel-item active">
+                    <img
+                      src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/09/babyshop-bebear-500x365.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/09/babyshop-giftcart-500x365.webp"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div style="text-align: center">
+                  <span style="font-size: 55px"> Be Friends </span>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                ></button>
+                <button
+                  class="carousel-control-next"
+                  style="color: #171b20"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section6" style="padding-top: 70px">
+        <div class="container">
+          <div class="row text-center">
+            <div style="padding-bottom: 70px">
+              <h2 style="font-size: 55px; line-height: 65px; font-weight: 600; letter-spacing: 0px">
+                What are the benefits of choosing us?
+              </h2>
+              <h5 style="font-size: 20px; line-height: 28px; font-weight: 400; letter-spacing: 0px">
+                Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus
+                et interdum.
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <div class="d-flex flex-column justify-content-center align-items-center h-100 gap-4">
+                <div>
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-features-icon1.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h6>100% BIO</h6>
+                  <p>Lorem ipsum dolor sit amet enim etiam lorem lectus</p>
+                </div>
+                <div>
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-sep1.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-features-icon3.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h6>COMFORT FOAM</h6>
+                  <p>Lorem ipsum dolor sit amet enim etiam lorem lectus</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="text-center">
+                <img
+                  style="width: 80%"
+                  src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-features-pic1.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="d-flex flex-column justify-content-center align-items-center h-100 gap-4">
+                <div>
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-features-icon1.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h6>100% BIO</h6>
+                  <p>Lorem ipsum dolor sit amet enim etiam lorem lectus</p>
+                </div>
+                <div>
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-sep1.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-features-icon3.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h6>COMFORT FOAM</h6>
+                  <p>Lorem ipsum dolor sit amet enim etiam lorem lectus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="height: 132px" class="row d-flex justify-content-center align-items-center">
+            <div class="text-center">
+              <button type="button" class="btn btn-dark">
+                <a class="text-light" href="#">SEE ALL FEATURES</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section7" style="margin-bottom: 70px">
+        <div class="container">
+          <div class="row">
+            <div class="col-7 p-0">
+              <img
+                class="w-100 h-100"
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-blog-pic1.webp"
+                alt=""
+              />
+            </div>
+            <div class="col-5 p-0">
+              <div>
+                <img
+                  class="w-100 h-100"
+                  src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-blog-pic2-768x576.webp"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  class="img-responsive w-100 h-100"
+                  src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-blog-pic3-768x576.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section8 mgb-16">
+        <div class="container text-center">
+          <h2 style="font-size: 55px; line-height: 65px; font-weight: 600; letter-spacing: 0px">
+            Product's<br />
+            Catalog
+          </h2>
+          <div class="row">
+            <div class="col-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product1a-500x625.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-text">
+                    <a
+                      href="https://themes.muffingroup.com/be/babyshop/product/duvet-cover-set-pumpkin-bear/"
+                      >Duvet Cover Set Pumpkin Bear</a
+                    >
+                  </h5>
+                  <div style="text-align: center">
+                    <span class="dot" style="background-color: blue"></span>
+                    <span class="dot" style="background-color: brown"></span>
+                    <span class="dot" style="background-color: red"></span>
+                    <span class="dot" style="background-color: yellow"></span>
+                  </div>
+                  <span>$10.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product11c-400x500.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-text">
+                    <a
+                      href="https://themes.muffingroup.com/be/babyshop/product/baby-set-hello-cutie/"
+                      >Baby Set Hello Cutie</a
+                    >
+                  </h5>
+                  <div style="text-align: center">
+                    <span class="dot" style="background-color: blue"></span>
+                    <span class="dot" style="background-color: brown"></span>
+                    <span class="dot" style="background-color: red"></span>
+                    <span class="dot" style="background-color: yellow"></span>
+                  </div>
+                  <span>$10.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product5a-400x500.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-text">
+                    <a
+                      href="https://themes.muffingroup.com/be/babyshop/product/baby-robe-panda-space/"
+                      >Baby Robe Panda Space</a
+                    >
+                  </h5>
+                  <div style="text-align: center">
+                    <span class="dot" style="background-color: blue"></span>
+                    <span class="dot" style="background-color: brown"></span>
+                    <span class="dot" style="background-color: red"></span>
+                    <span class="dot" style="background-color: yellow"></span>
+                  </div>
+                  <span>$10.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-product2a-400x500.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-text">
+                    <a
+                      href="https://themes.muffingroup.com/be/babyshop/product/duvet-cover-set-cute-mummy/"
+                      >Duvet Cover Set Cute Mummy</a
+                    >
+                  </h5>
+                  <div style="text-align: center">
+                    <span class="dot" style="background-color: blue"></span>
+                    <span class="dot" style="background-color: brown"></span>
+                    <span class="dot" style="background-color: red"></span>
+                    <span class="dot" style="background-color: yellow"></span>
+                  </div>
+                  <span>$10.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section9 mgb-70">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-3">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-client5.png"
+                alt=""
+              />
+            </div>
+            <div class="col-sm-3">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-client4.png"
+                alt=""
+              />
+            </div>
+            <div class="col-sm-3">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-client3.png"
+                alt=""
+              />
+            </div>
+            <div class="col-sm-3">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-client1.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section10 mgb-70">
+        <div class="container text-center">
+          <div
+            style="
+              height: 200px;
+              background-image: url(https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-instagram.webp);
+            "
+          ></div>
+        </div>
+      </div>
+
+      <div class="section11 mgb-70">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-3 d-flex justify-content-center align-items-center gap-4">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-footer-icon1.png"
+                alt=""
+              />
+              <p>FREE SHIPPING</p>
+            </div>
+            <div class="col-sm-3 d-flex justify-content-center align-items-center gap-4">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-footer-icon2.png"
+                alt=""
+              />
+              <p>RETURN POLICY</p>
+            </div>
+            <div class="col-sm-3 d-flex justify-content-center align-items-center gap-4">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-footer-icon3.png"
+                alt=""
+              />
+              <p>PAYMENT SECURE</p>
+            </div>
+            <div class="col-sm-3 d-flex justify-content-center align-items-center gap-4">
+              <img
+                src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-footer-icon4.png"
+                alt=""
+              />
+              <p>FREE SUPPORT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+
+    <div class="section12 p-4" style="background-color: #f6f7f9; height: 512px">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 d-flex flex-column gap-4">
+            <img
+              src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop.png"
+              alt=""
+            />
+            <p>In the BeFriends Club you can take advantage of attractive offers</p>
+            <div>
+              <button class="btn btn-dark">JOIN NOW</button>
+            </div>
+            <img
+              src="https://themes.muffingroup.com/be/babyshop/wp-content/uploads/2021/10/babyshop-footer-pic1-260x18.png"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-3 d-flex flex-column">
+            <h5 class="p-4">Useful links</h5>
+            <ul>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Help &amp; About us</a></li>
+              <li><a href="#">Shipping &amp; Returns</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+            <h5 class="p-4">Delivery</h5>
+            <ul>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#">Free Delivery</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 d-flex flex-column gap-4">
+            <h5 class="p-4">Customer service</h5>
+            <ul>
+              <li><a href="#">Orders</a></li>
+              <li><a href="#">Downloads</a></li>
+              <li><a href="#">Addresses</a></li>
+              <li><a href="#">Account details</a></li>
+              <li><a href="#">Lost password</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3 d-flex flex-column gap-4">
+            <h5 class="p-4">Need help?</h5>
+            <h5>
+              <a href="tel:61383766284"> <i class="bi bi-phone"></i> +61 (0) 383 766 284</a>
+            </h5>
+            <h5>
+              <a href="tel:61383766284"> <i class="bi bi-phone"></i> +61 (0) 383 866 284</a>
+            </h5>
+            <p>Opening hours:</p>
+            <p>
+              <span style="color: #1a1e24; border-bottom: 1px dotted">Monday - Friday:</span> 8am -
+              5pm<br />
+              <span style="color: #1a1e24; border-bottom: 1px dotted">Saturday - Sunday</span> 9am -
+              4pm
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
